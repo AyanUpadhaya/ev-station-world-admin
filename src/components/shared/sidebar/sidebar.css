@@ -1,0 +1,65 @@
+.sidebar {
+  transition: width 0.4s ease-in-out;
+}
+.sideNav::-webkit-scrollbar {
+  width: 0px;
+}
+
+.sidebar .dashboard:hover {
+  background-color: #e4ffff72;
+  color: #c1ef00;
+}
+
+.sidebar .dashboard.active {
+  background-color: #c1ef00;
+  color: #232323 !important;
+ 
+}
+.sidebar .dashboard:hover svg {
+  /* stroke: #c1ef00; */
+  fill: #c1ef00;
+}
+
+.sidebar .dashboard.active svg {
+  /* stroke: black; */
+  fill: black;
+}
+
+.sidebar .navlink.active {
+  background-color: #c1ef00;
+  color: #232323;
+  border-radius: 12px;
+  
+}
+.navlink:hover {
+  background-color: #e4ffff72;
+  color: #c1ef00;
+  border-radius: 12px;
+}
+.navlink:hover svg {
+  fill: white;
+  /* stroke: white; */
+}
+.sidebar svg {
+  /* stroke: white; */
+  fill: white;
+  flex-shrink: 0;
+}
+.sidebar .navlink:hover svg {
+  /* stroke: #c1ef00; */
+  fill: #c1ef00;
+}
+.sidebar .navlink.active svg {
+  /* stroke: black; */
+  fill: black;
+}
+
+
+
+.nested.active {
+  color: #c1ef00;
+}
+
+.nested:hover {
+  color: #c1ef00;
+}
